@@ -1,0 +1,6 @@
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\bin\Debug\ProyectoEmployee.dll
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\bin\Debug\ProyectoEmployee.pdb
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\obj\Debug\ProyectoEmployee.csproj.CoreCompileInputs.cache
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\obj\Debug\ProyectoEmployee.dll
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\obj\Debug\ProyectoEmployee.pdb
+c:\users\pacos\source\repos\Empleados\ProyectoEmployee\obj\Debug\ProyectoEmployee.csprojAssemblyReference.cache

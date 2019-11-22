@@ -1,0 +1,26 @@
+﻿<Window x:Class="Empleados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Empleados"
+        xmlns:System= "clr‐namespace:System;assembly=mscorlib"              
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="461*"/>
+            <ColumnDefinition Width="333*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid    Name= "dataGrid"    AlternatingRowBackground =  "LightBlue"  AlternationCount ="2" AutoGenerateColumns = "False" Grid.ColumnSpan="2" Margin="0,0,0.334,-0.333" >
+            <DataGrid.Columns>
+                <DataGridTextColumn    Header    =    "Name"    Binding    =    "{Binding    Name}"    />
+                <DataGridTextColumn    Header    =    "Title"    Binding    =    "{Binding    Title}"   />
+                <DataGridCheckBoxColumn    Header    =    "ReElected?"    Binding    =    "{Binding    WasReElected}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Añadir empleado" HorizontalAlignment="Left" Margin="139.333,366,0,0" VerticalAlignment="Top" Width="108" Grid.Column="1" Height="26" Click="Button_Click"/>
+    </Grid>
+</Window>
